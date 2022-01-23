@@ -74,6 +74,11 @@ img {
     font-weight: bold;
     font-size: 18px;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #5593f7;
 }
 
 .info-section {
@@ -110,7 +115,7 @@ img {
 .quote-section {
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 120px 0;
+    padding: 150px 0;
 }
 
 .quote, .quote-src {
@@ -127,4 +132,58 @@ img {
 .quote-src {
     font-weight: bold;
     text-align: right;
+}
+
+.action-section {
+    padding: 64px 160px;
+}
+
+.action-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 160px;
+    border-radius: 8px;
+}
+
+.action-text {
+    color: #f9faf8;
+}
+
+.action-title {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.action-desc {
+    opacity: 85%;
+}
+
+.action-btn {
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #5593f7;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    color: #e5e7eb;
+}
+
+.footer a {
+    color: #e5e7eb;
 }

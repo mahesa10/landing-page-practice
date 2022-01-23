@@ -75,3 +75,33 @@ img {
     font-size: 18px;
     border-radius: 8px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-top: 56px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-content {
+    display: flex;
+    gap: 32px;
+}
+
+.info-img {
+    width: 160px;
+    border-radius: 16px;
+}
+
+.info-desc {
+    font-size: 16px;
+    color: #1f2937ad;
+    text-align: center;
+}

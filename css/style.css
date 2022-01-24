@@ -7,7 +7,7 @@ body {
 }
 
 .hero-container {
-    background-color: #1f2937;
+    background-color: #A82D49;
     padding: 16px 150px;
 }
 
@@ -44,6 +44,7 @@ li a {
     color: #f9faf8;
     display: flex;
     align-items: center;
+    gap: 48px;
 }
 
 .hero-left {
@@ -62,14 +63,14 @@ li a {
 }
 
 img {
-    width: 400px;
-    flex: auto;
+    width: 500px;
+    flex-shrink: 0;
 }
 
 .hero-button {
-    background-color: #3882f6;
-    border: none;
-    color: #f9faf8;
+    background-color: #A82D49;
+    color: white;
+    border: 2px solid white;
     padding: 8px 32px;
     font-weight: bold;
     font-size: 18px;
@@ -78,14 +79,16 @@ img {
 }
 
 .hero-button:hover {
-    background-color: #5593f7;
+    background-color: white;
+    border: 2px solid white;
+    color: #A82D49;
 }
 
 .info-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 48px;
+    /* gap: 48px; */
     margin-top: 56px;
     margin-bottom: 96px;
 }
@@ -94,11 +97,13 @@ img {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin-bottom: 64px;
 }
 
 .info-content {
     display: flex;
     gap: 32px;
+    margin-bottom: 24px;
 }
 
 .info-img {
@@ -110,6 +115,12 @@ img {
     font-size: 16px;
     color: #1f2937ad;
     text-align: center;
+}
+
+.info-more {
+    font-size: 20px;
+    opacity: 70%;
+    margin: 0;
 }
 
 .quote-section {
@@ -127,11 +138,13 @@ img {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+    margin-bottom: 32px;
 }
 
 .quote-src {
     font-weight: bold;
     text-align: right;
+    font-size: 18px;
 }
 
 .action-section {
@@ -139,7 +152,7 @@ img {
 }
 
 .action-container {
-    background-color: #3882f6;
+    background-color: #A82D49;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -161,9 +174,9 @@ img {
 }
 
 .action-btn {
-    border: 2px solid #f9faf8;
-    color: #f9faf8;
-    background-color: #3882f6;
+    background-color: #A82D49;
+    color: white;
+    border: 2px solid white;
     border-radius: 8px;
     padding: 8px 32px;
     font-weight: bold;
@@ -172,7 +185,9 @@ img {
 }
 
 .action-btn:hover {
-    background-color: #5593f7;
+    border: 2px solid #f9faf8;
+    color: #A82D49;
+    background-color: white;
 }
 
 .footer {
